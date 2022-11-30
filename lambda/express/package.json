@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --respawn main.ts",
+    "bundle": "esbuild handler.ts main.ts --bundle --outdir=dist --platform=node"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.15.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.1",
+    "express": "^4.18.2"
+  }
+}
