@@ -61,7 +61,6 @@ stats count(@initDuration), count(@duration),
 検証が完了した後は、下記のコマンドで作成されたAWSリソースを削除することができます。
 
 ```sh
-cd cdk
 npx cdk destroy --force
 ```
 
