@@ -1,6 +1,8 @@
 # Lambda Web Adapter benchmark sample
 [Lambda Web Adapter](https://github.com/awslabs/aws-lambda-web-adapter) のベンチマーク用CDKプロジェクトです。
-このサンプルを用いて取得したベンチマークの記事はこちら: [TODO: 記事のURL貼る]()
+
+このサンプルを用いて取得したベンチマークの記事はこちら: 
+[Lambda Web Adapter でウェブアプリを (ほぼ) そのままサーバーレス化する](https://aws.amazon.com/jp/builders-flash/202301/lambda-web-adapter/)
 
 具体的には、以下をデプロイします:
 
